@@ -1,9 +1,9 @@
 <?php
 ini_set('display_errors', 0);
 function dbconnect() {
-  $dsn = 'mysql:dbname=tb220376db;host=localhost';
-  $user = 'tb-220376';
-  $password = '7A3JpFgm5s';
+  $dsn = '?';
+  $user = '?';
+  $password = '?';
 
   try {
     $pdo = new PDO(
