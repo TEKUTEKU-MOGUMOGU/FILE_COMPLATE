@@ -1,0 +1,254 @@
+body {
+    font-family: 'Lato', 'Noto Sans JP', '游ゴシック Medium', '游ゴシック体', 'Yu Gothic Medium', YuGothic, 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+    letter-spacing:1px;
+}
+h1{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-top: 0;
+    background: linear-gradient(transparent 90%, #df6148 90%);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom:10px;
+    width: 330px;
+    color: #404040;
+}
+h2{
+    text-align: center;
+}
+h6{
+    font-family: '游ゴシック Bold';
+    margin-top: 40px;
+    font-size: 15px;
+    font-weight: 300;
+    color: #df6148;
+    text-align: center;
+    margin-bottom: 0;
+}
+.yesno{
+    display: flex;
+    padding-left:33%;
+    padding-right:33%;
+}
+.btn-flat-simple {
+    position: relative;
+    display: inline-block;
+    font-weight: bold;
+    text-decoration: none;
+    color: #df6148;
+    background: #ECECEC;
+    transition: .4s;
+    border: 1px solid #ffffff;
+    margin-top:15px;
+    width: 310px;
+    height: 30px;
+    margin-left:0;
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+.center{
+    padding-left: 38%;
+    padding-right: 38%;
+}
+.centerrink{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+.centerhome{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+.flex{
+    display: flex;
+    width: 30%;
+    text-align: left;
+}
+.child1{
+    flex-basis: 50%;
+}
+.child2{
+    flex-basis: 50%;
+}
+.btn-flat-simple:hover {
+    background: #df6148;
+    color: white;
+}
+
+.input__area {
+    position: relative;
+    height: 150px;
+    width: 150px;
+}
+
+.input__area img {
+    height: 150px;
+    width: 150px;
+}
+
+.input__area input {
+    display: none;
+}
+
+.input-button::before {
+    background: #616161;
+    border-radius: 50%;
+    color: #fff;
+    content: "＋";
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: 600;
+    opacity: 0.9;
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    line-height: 3rem;
+    height: 3rem;
+    text-align: center;
+    width: 3rem;
+}
+
+table{
+    border-style:none;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+.storeinfo{
+    right:20px;
+    position:absolute;
+    top:170px;
+}
+
+input.number{
+    width: 300px;
+}
+
+.cp_ipselect {
+	position: relative;
+	width: 40%;
+	margin: 2em auto;
+	text-align: center;
+}
+.cp_sl06 {
+	position: relative;
+	font-family: inherit;
+	background-color: transparent;
+	width: 100%;
+	padding: 10px 10px 10px 0;
+	font-size: 18px;
+	border-radius: 0;
+	border: none;
+	border-bottom: 1px solid rgba(0,0,0, 0.3);
+}
+.cp_sl06:focus {
+	outline: none;
+	border-bottom: 1px solid rgba(0,0,0, 0);
+}
+.cp_ipselect .cp_sl06 {
+	appearance: none;
+	-webkit-appearance:none
+}
+.cp_ipselect select::-ms-expand {
+	display: none;
+}
+.cp_ipselect:after {
+	position: absolute;
+	top: 18px;
+	right: 10px;
+	width: 0;
+	height: 0;
+	padding: 0;
+	content: '';
+	border-left: 6px solid transparent;
+	border-right: 6px solid transparent;
+	border-top: 6px solid rgba(0, 0, 0, 0.3);
+	pointer-events: none;
+}
+.cp_sl06_selectlabel {
+	color: rgba(0,0,0, 0.5);
+	font-size: 18px;
+	font-weight: normal;
+	position: absolute;
+	pointer-events: none;
+	left: 0;
+	top: 10px;
+	transition: 0.2s ease all;
+}
+.cp_sl06:focus ~ .cp_sl06_selectlabel, .cp_sl06:valid ~ .cp_sl06_selectlabel {
+	color: #da3c41;
+	top: -20px;
+	transition: 0.2s ease all;
+	font-size: 14px;
+}
+.cp_sl06_selectbar {
+	position: relative;
+	display: block;
+	width: 100%;
+}
+.cp_sl06_selectbar:before, .cp_sl06_selectbar:after {
+	content: '';
+	height: 2px;
+	width: 0;
+	bottom: 1px;
+	position: absolute;
+	background: #da3c41;
+	transition: 0.2s ease all;
+}
+.cp_sl06_selectbar:before {
+	left: 50%;
+}
+.cp_sl06_selectbar:after {
+	right: 50%;
+}
+.cp_sl06:focus ~ .cp_sl06_selectbar:before, .cp_sl06:focus ~ .cp_sl06_selectbar:after {
+	width: 50%;
+}
+.cp_sl06_highlight {
+	position: absolute;
+	top: 25%;
+	left: 0;
+	pointer-events: none;
+	opacity: 0.5;
+}
+.btn-border {
+    display: inline-block;
+    max-width: 180px;
+    text-align: left;
+    border: 2px solid #df6148;
+    font-size: 16px;
+    color: #df6148;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: .4s;
+}
+  
+.btn-border:hover {
+    background-color: #df6148;
+    border-color: #df6148;
+    color: #FFF;
+}
+@media (max-width:1250px) {
+    .storeinfo{
+        position: relative;
+        left: 0;
+        top:0;
+        right:0;
+        bottom:0;
+        margin-bottom: 20px;
+    }
+    .center{
+        padding-left: 10%;
+    }
+}

@@ -1,0 +1,223 @@
+body {
+    font-family: 'Lato', 'Noto Sans JP', '游ゴシック Medium', '游ゴシック体', 'Yu Gothic Medium', YuGothic, 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+    letter-spacing:1px;
+}
+h1{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-top: 0;
+    background: linear-gradient(transparent 90%, #df6148 90%);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom:10px;
+    width: 330px;
+    color: #404040;
+}
+h2{
+    text-align: center;
+}
+h6{
+    font-family: '游ゴシック Bold';
+    margin-top: 40px;
+    font-size: 15px;
+    font-weight: 300;
+    color: #df6148;
+    text-align: center;
+    margin-bottom: 0;
+}
+.btn-flat-simple {
+    position: relative;
+    display: inline-block;
+    font-weight: bold;
+    text-decoration: none;
+    color: #df6148;
+    background: #ECECEC;
+    transition: .4s;
+    border: 1px solid #ffffff;
+    margin-top:15px;
+    width: 155px;
+    height: 30px;
+    margin-left:0;
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+.flex{
+    display: flex;
+    width: 30%;
+    text-align: left;
+}
+.child1{
+    flex-basis: 50%;
+}
+.child2{
+    flex-basis: 50%;
+}
+.btn-flat-simple:hover {
+    background: #df6148;
+    color: white;
+}
+
+.input__area {
+    position: relative;
+    height: 150px;
+    width: 150px;
+}
+
+.input__area img {
+    height: 150px;
+    width: 150px;
+}
+
+.input__area input {
+    display: none;
+}
+
+.input-button::before {
+    background: #616161;
+    border-radius: 50%;
+    color: #fff;
+    content: "＋";
+    cursor: pointer;
+    font-size: 1.5rem;
+    font-weight: 600;
+    opacity: 0.9;
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    line-height: 3rem;
+    height: 3rem;
+    text-align: center;
+    width: 3rem;
+}
+
+table{
+    border-style:none;
+}
+
+img{
+    width: 100px;
+    height: 100px;
+}
+
+.storeinfo{
+    right:20px;
+    position:absolute;
+    top:170px;
+}
+
+.store{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+input.number{
+    width: 300px;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    width: 20%;
+    padding-left: 60px;
+}
+.centerrink{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    padding-left:100px;
+}
+.centerhome{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+.centertop{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 27%;
+}
+.centerhomelogin{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 28%;
+}
+.centerfile{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    padding-left: 50px;
+}
+.centerlogin{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+}
+.btn-border {
+    display: inline-block;
+    max-width: 180px;
+    text-align: left;
+    border: 2px solid #df6148;
+    font-size: 16px;
+    color: #df6148;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: .4s;
+}
+  
+.btn-border:hover {
+    background-color: #df6148;
+    border-color: #df6148;
+    color: #FFF;
+}
+
+.photo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: 5%;
+    margin-bottom: 20px;
+}
+
+.bg_test-text {
+    border:  solid 1px;                             /* 枠線指定 */
+    display:  inline-block;                         /* インラインブロックにする */
+    padding: 10px 10px;                             /* 余白指定 */
+    background-color: rgba(255, 255, 255, 0.7);     /* 背景色指定 */
+}
+  
+.bg_test {
+    text-align:  center;    /* 文字中央寄せ */
+    padding:  150px;        /* 余白指定 */
+    border: solid 2px;      /* 枠線指定 */
+    background-image: url(../img/AnyConv.com__foodloss.jpg); 
+    width: 45%;
+    background-size: cover;
+    margin:30px 0;
+}
+
+@media (max-width:1250px) {
+    .storeinfo{
+        position: relative;
+        left: 0;
+        top:0;
+        right:0;
+        bottom:0;
+        margin-bottom: 20px;
+    }
+}

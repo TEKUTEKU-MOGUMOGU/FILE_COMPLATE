@@ -1,0 +1,61 @@
+body {
+    font-family: 'Lato', 'Noto Sans JP', '游ゴシック Medium', '游ゴシック体', 'Yu Gothic Medium', YuGothic, 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+    letter-spacing:1px;
+}
+table,td,tr{
+    border-style:none;
+}
+
+.btn-flat-simple {
+    position: relative;
+    display: inline-block;
+    font-weight: bold;
+    text-decoration: none;
+    color: #df6148;
+    background: #ECECEC;
+    transition: .4s;
+    border: 1px solid #ffffff;
+    margin-top:5px;
+    margin-bottom: 5px;
+    width: 330px;
+    height: 30px;
+    margin-left:0;
+    margin-left: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+h1{
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-top: 0;
+    background: linear-gradient(transparent 90%, #df6148 90%);
+    padding-bottom:10px;
+    width: 330px;
+    color: #404040;
+    text-align: center;
+}
+
+.btn-border {
+    display: inline-block;
+    max-width: 180px;
+    text-align: left;
+    border: 2px solid #df6148;
+    font-size: 16px;
+    color: #df6148;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 4px;
+    transition: .4s;
+}
+  
+.btn-border:hover {
+    background-color: #df6148;
+    border-color: #df6148;
+    color: #FFF;
+}
+
+.centerrink{
+    padding-left: 85px;
+}

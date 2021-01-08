@@ -1,0 +1,59 @@
+.storeinfo{
+    display: flex;
+    width: 50%;
+    margin: 2em auto;
+    padding: 1em;
+    border: 5px double #68686b; /*太さ・線種・色*/
+    color: #333; /* 文字色 */
+    background-color: #fff; /* 背景色 */
+    border-radius: 1px; /*角の丸み*/
+}
+.child1{
+    flex-basis: 40%;
+}
+.child1 img{
+    width: 220px;
+    height: 200px;
+}
+.child2{
+    flex-basis: 60%;
+}
+table{
+    border-style: none;
+}
+
+body {
+    font-family: 'Lato', 'Noto Sans JP', '游ゴシック Medium', '游ゴシック体', 'Yu Gothic Medium', YuGothic, 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+    letter-spacing:1px;
+}
+h1{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+    margin-top: 0;
+    background: linear-gradient(transparent 90%, #df6148 90%);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom:10px;
+    width: 330px;
+    color: #404040;
+}
+h2{
+    text-align: center;
+}
+h6{
+    font-family: '游ゴシック Bold';
+    margin-top: 40px;
+    font-size: 15px;
+    font-weight: 300;
+    color: #df6148;
+    text-align: center;
+    margin-bottom: 0;
+}
+.toshop{
+    height: 203px;
+}
+
+  
+  
